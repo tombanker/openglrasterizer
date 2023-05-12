@@ -10,7 +10,7 @@
 		591217162A0E0146007BE3E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 591217152A0E0146007BE3E2 /* main.cpp */; };
 		5912171E2A0E01E9007BE3E2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5912171D2A0E01E9007BE3E2 /* OpenGL.framework */; };
 		591217212A0E0314007BE3E2 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5912171F2A0E01F6007BE3E2 /* libglfw.3.3.dylib */; };
-		591217232A0E04FA007BE3E2 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 591217222A0E04FA007BE3E2 /* glad.c */; };
+		591217252A0E1840007BE3E2 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 591217242A0E1840007BE3E2 /* glad.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 		591217152A0E0146007BE3E2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5912171D2A0E01E9007BE3E2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		5912171F2A0E01F6007BE3E2 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
-		591217222A0E04FA007BE3E2 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../../Downloads/glad/src/glad.c; sourceTree = "<group>"; };
+		591217242A0E1840007BE3E2 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				591217152A0E0146007BE3E2 /* main.cpp */,
-				591217222A0E04FA007BE3E2 /* glad.c */,
+				591217242A0E1840007BE3E2 /* glad.c */,
 			);
 			path = OpenGLRasterizer;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				591217162A0E0146007BE3E2 /* main.cpp in Sources */,
-				591217232A0E04FA007BE3E2 /* glad.c in Sources */,
+				591217252A0E1840007BE3E2 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
