@@ -31,6 +31,9 @@
 		5912171D2A0E01E9007BE3E2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		5912171F2A0E01F6007BE3E2 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		591217242A0E1840007BE3E2 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		59D7B0E72A0F5F38005E34C9 /* shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
+		59D7B0E82A0F604F005E34C9 /* shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vs; sourceTree = "<group>"; };
+		59D7B0E92A0F605C005E34C9 /* shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.fs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 			children = (
 				591217152A0E0146007BE3E2 /* main.cpp */,
 				591217242A0E1840007BE3E2 /* glad.c */,
+				59D7B0EA2A0F60E8005E34C9 /* shaders */,
 			);
 			path = OpenGLRasterizer;
 			sourceTree = "<group>";
@@ -79,6 +83,16 @@
 				5912171D2A0E01E9007BE3E2 /* OpenGL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59D7B0EA2A0F60E8005E34C9 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				59D7B0E72A0F5F38005E34C9 /* shader.h */,
+				59D7B0E82A0F604F005E34C9 /* shader.vs */,
+				59D7B0E92A0F605C005E34C9 /* shader.fs */,
+			);
+			path = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
